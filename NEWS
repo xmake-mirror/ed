@@ -1,0 +1,10 @@
+Changes in version 1.17:
+
+The commands 'q' and 'Q' now work in a global command.
+(Reported by J. A. Harris).
+
+The new option '-E, --extended-regexp' has been added. It tells ed to use
+extended regular expressions instead of the basic regular expressions
+mandated by POSIX. (Suggested by Shawn Wagner).
+
+Print the file name in case of read or write error. (Reported by Dan Jacobson).
